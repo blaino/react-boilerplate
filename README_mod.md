@@ -14,7 +14,8 @@ rm internals/scripts/setup.js
 npm install
 # remove encrypted file (causes problems elsewhere)
 rm node_modules/tar/test/cb-never-called-1.0.1.tgz
-rm -Rf .git/
 npm run clean
+rm -Rf .git/
+rm -rF .github/
 tar czf mxstbr-react-boilerplate-mod-`date +"%m-%d-%Y"`.tar.gz .
 ```
