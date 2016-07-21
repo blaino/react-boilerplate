@@ -19,5 +19,5 @@ rm -Rf .github/
 mkdir -p $PKG_DIR
 rm -Rf $PKG_DIR/*
 cp -r . $PKG_DIR/
-tar czfC mxstbr-react-boilerplate-mod-`date +"%m-%d-%Y"`.tar.gz /tmp $PKG_DIR
-echo "Created boilerplate tarball in /tmp"
+tar czfC mxstbr-react-boilerplate-mod-`date +"%m-%d-%Y"`.tar.gz /tmp mxstbr-package
+echo "Created boilerplate tarball"
