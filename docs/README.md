@@ -23,6 +23,7 @@
   - [ImmutableJS](js/immutablejs.md)
   - [reselect](js/reselect.md)
   - [redux-saga](js/redux-saga.md)
+  - [i18n](js/i18n.md)
   - [routing](js/routing.md)
 
 ## Overview
@@ -69,7 +70,7 @@ Run `npm start` to see your app at `localhost:3000`
 
 ### Structure
 
-The [`app/`](app) directory contains your entire application code, including CSS,
+The [`app/`](../../../tree/master/app) directory contains your entire application code, including CSS,
 JavaScript, HTML and tests.
 
 The rest of the folders and files only exist to make your life easier, and

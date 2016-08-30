@@ -34,6 +34,9 @@
   <a href="#sponsors">
     <img src="https://opencollective.com/react-boilerplate/sponsors/badge.svg" alt="Sponsors" />
   </a>
+  <a href="http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=react-boilerplate">
+    <img alt="Supported by Thinkmill" src="https://thinkmill.github.io/badge/heart.svg" />
+  </a>
   <!-- Gitter -->
   <a href="https://gitter.im/mxstbr/react-boilerplate">
     <img src="https://camo.githubusercontent.com/54dc79dc7da6b76b17bc8013342da9b4266d993c/68747470733a2f2f6261646765732e6769747465722e696d2f6d78737462722f72656163742d626f696c6572706c6174652e737667" alt="Gitter Chat" />
@@ -67,6 +70,9 @@
   <dt>Industry-standard routing</dt>
   <dd>It's natural to want to add pages (e.g. `/about`) to your application, and routing makes this possible.</dd>
 
+  <dt>Industry-standard i18n internationalization support</dt>
+  <dd>Scalable apps need to support multiple languages, easily add and support multiple languages with `react-intl`.</dd>
+
   <dt>Offline-first</dt>
   <dd>The next frontier in performant web apps: availability without a network connection from the instant your users load the app.</dd>
 
@@ -91,10 +97,10 @@ There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on ho
 
 ## Quick start
 
-1. Clone this repo using `$ git clone --depth=1 https://github.com/mxstbr/react-boilerplate.git`
-1. Run `$ npm run setup` to install dependencies and clean the git repo.<br />
-   *At this point you can run `$ npm start` to see the example app at `http://localhost:3000`.*
-1. Run `$ npm run clean` to delete the example app.
+1. Clone this repo using `git clone --depth=1 https://github.com/mxstbr/react-boilerplate.git`
+1. Run `npm run setup` to install dependencies and clean the git repo.<br />
+   *At this point you can run `npm start` to see the example app at `http://localhost:3000`.*
+1. Run `npm run clean` to delete the example app.
 
 Now you're ready to rumble!
 
